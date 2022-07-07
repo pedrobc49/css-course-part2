@@ -1,0 +1,29 @@
+img {
+  margin: 2px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat (9, 1fr);
+  gap: 5px;
+}
+
+@media screen and (min-width: 768px){
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  img:nth-child(3) {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+  }
+}

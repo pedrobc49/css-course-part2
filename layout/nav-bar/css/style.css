@@ -1,0 +1,39 @@
+/* html {
+  font-size: 62.5%;
+} */
+
+body {
+  margin: 10px;
+  height: 100vh;
+}
+
+nav {
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+nav li {
+  margin: 0.7rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: dodgerblue;
+}
+
+@media screen and (min-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
