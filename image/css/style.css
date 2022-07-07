@@ -1,0 +1,13 @@
+body {
+  background: url(../image/hubble.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 40rem;
+  height: 100%;
+}
+
+body h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
