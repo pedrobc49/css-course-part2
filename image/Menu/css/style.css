@@ -1,0 +1,43 @@
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+i {
+  color: lightgray;
+  padding: 1rem;
+}
+
+a {
+  color: lightgray;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.menu {
+  background-color: #2a2138;
+  width: 100%;
+}
+
+.menu .fas {
+  margin-right: 1rem;
+  width: 2rem;
+  text-align: center;
+}
+
+.menu li:hover, .menu .active {
+  background-color: #221a2e;
+}
+
+@media screen and (min-width: 768px){
+  .menu {
+    width: 20%;
+    height: 100vh;
+  }
+}

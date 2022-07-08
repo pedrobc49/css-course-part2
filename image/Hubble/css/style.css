@@ -1,0 +1,63 @@
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  text-shadow: 2px 2px black;
+  word-spacing: 1.5rem;
+}
+
+.hero {
+  background: url(/image/Hubble/image/background_w320.jpg) no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 1rem;
+  text-align: center;
+}
+
+.hero .tagline {
+  font-size: 2rem;
+  font-weight: 300;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background: url(/image/Hubble/image/background_w853.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .hero .tagline {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1228px) {
+  .hero {
+    background: url(/image/Hubble/image/background_w1228.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    background: url(/image/Hubble/image/background_w1440.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 8rem;
+  }
+}
