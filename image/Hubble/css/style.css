@@ -10,7 +10,7 @@ h1 {
 }
 
 .hero {
-  background: url(/image/Hubble/image/background_w320.jpg) no-repeat;
+  background: url(../image/background_w320.jpg) no-repeat;
   color: white;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@ h1 {
 
 @media screen and (min-width: 768px) {
   .hero {
-    background: url(/image/Hubble/image/background_w853.jpg) no-repeat;
+    background: url(../image/background_w853.jpg) no-repeat;
     background-size: cover;
   }
 
@@ -42,7 +42,7 @@ h1 {
 
 @media screen and (min-width: 1228px) {
   .hero {
-    background: url(/image/Hubble/image/background_w1228.jpg) no-repeat;
+    background: url(../image/background_w1228.jpg) no-repeat;
     background-size: cover;
   }
 
@@ -53,7 +53,7 @@ h1 {
 
 @media screen and (min-width: 1440px) {
   .hero {
-    background: url(/image/Hubble/image/background_w1440.jpg) no-repeat;
+    background: url(../image/background_w1440.jpg) no-repeat;
     background-size: cover;
   }
 
